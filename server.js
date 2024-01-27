@@ -11,7 +11,7 @@ const app = express();
 app.use(morgan('dev'));
 
 // Setup app folders.
-app.use(express.static('public'));
+app.use(express.static('src'));
 
 // set up a route for redirect.html
 app.get('/redirect', (req, res) => {
