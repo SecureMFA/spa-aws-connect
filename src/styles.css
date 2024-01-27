@@ -1,21 +1,133 @@
+
+/* Reset default browser styles */
 * {
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+/* Apply modern styles to header, navigation, and main content */
+header {
+    background-color: #0B0C10;
+    color: #66FCF1;
+    text-align: center;
+    padding: 40px 0;
 }
 
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #66FCF1;
 }
 
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
+p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0B0C10;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #45A29E;
+}
+
+/* Style the footer */
+footer {
+    background-color: #C5C6C7;
+    ;
+    color: #0B0C10;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+#top-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#signIn,
+#signOut {
+    background-color: #ffffff;
+    color: #0B0C10;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Add hover effect */
+#signIn:hover,
+#signOut:hover {
+    background-color: #66FCF1;
+}
+
+.d-none{display:none!important}
+
+/* Center the text */
+#centered-text-info {
+    text-align: center;
+    margin-top: 20px; /* Add some spacing if needed */
+}
+
+#table-div {
+    text-align: center;
+    margin-top: 20px; /* Add some spacing if needed */
+}
+
+/* Style the table cells */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #0B0C10;
+    padding: 10px;
+}
+
+
+/* Add more styles as needed */
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+}
+
+.navbarStyle {
+    padding: .5rem 1rem !important;
+}
+
+.table-responsive-ms {
+    max-height: 39rem !important;
+    padding-left: 10%;
+    padding-right: 10%;      
+}
+
+form, .group-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group, ul {
+    width: 50% !important;
 }
