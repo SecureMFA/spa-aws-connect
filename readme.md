@@ -1,7 +1,5 @@
-# Vanilla JavaScript App
+# SPA user interface (UI) for AWS Connect PaaS service
 
-[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build JavaScript apps in minutes. Use this repo with the [quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=vanilla-javascript) to build and customize a new static site.
+JavaScript single-page application (SPA) with Microsft Authentication Library (MSAL v2). This page will host the Amazon Connect chat widget (used to initiate a chat from within the page) plus the setup of the OIDC flow to acquire OAuth2 access tokens to act on behalf of the end-user when calling WEB API service.
 
-This repo is used as a starter for a _very basic_ HTML web application using no front-end frameworks.
-
-This repo has a dev container. This means if you open it inside a [GitHub Codespace](https://github.com/features/codespaces), or using [VS Code with the remote containers extension](https://code.visualstudio.com/docs/remote/containers), it will be opened inside a container with all the dependencies already installed.
+For full details, please read: https://www.securemfa.com/downloads/web-api-aws-connect
